@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "rimraf docs && react-scripts build && copyfiles build/* docs"
+    "deploy": "rimraf docs && react-scripts build && mv build docs"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -5,6 +5,7 @@ import Summary from './pages/Summary'
 import Detail from './pages/Detail'
 
 const App = () => {
+  console.log('Initialized')
   return (
     <Router>
       <Route path="/" exact component={Summary} />
