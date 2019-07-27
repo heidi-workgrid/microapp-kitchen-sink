@@ -7,7 +7,7 @@ import Detail from './pages/Detail'
 const App = () => {
   console.log('Initialized')
   return (
-    <Router>
+    <Router basename="/microapp-kitchen-sink">
       <Route path="/" exact component={Summary} />
       <Route path="/detail" component={Detail} />
     </Router>
