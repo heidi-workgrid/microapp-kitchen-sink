@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from 'react'
 import MicroApp from '@workgrid/micro-app'
 
 const Summary = () => {
-  console.log('Summary loaded')
   const microapp = useRef(
     new MicroApp({
       id: 'example-microapp',
