@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cef29f1452125baf2b33d7dfa404e7a",
+    "revision": "9f6c3573018d9091464eeb21d64ccbee",
     "url": "/microapp-kitchen-sink/index.html"
   },
   {
-    "revision": "783c3c5c5f5178cd8931",
+    "revision": "9da0d0fcdc7927f82e88",
     "url": "/microapp-kitchen-sink/static/css/main.f2d29e32.chunk.css"
   },
   {
-    "revision": "2ebf7f494a98622a1412",
-    "url": "/microapp-kitchen-sink/static/js/2.54dbbd51.chunk.js"
+    "revision": "a81ec1328e654be72523",
+    "url": "/microapp-kitchen-sink/static/js/2.5fdd8ca2.chunk.js"
   },
   {
-    "revision": "783c3c5c5f5178cd8931",
-    "url": "/microapp-kitchen-sink/static/js/main.d06b8348.chunk.js"
+    "revision": "9da0d0fcdc7927f82e88",
+    "url": "/microapp-kitchen-sink/static/js/main.2f7dcc7f.chunk.js"
   },
   {
     "revision": "acaa383e223dd0d5a391",
