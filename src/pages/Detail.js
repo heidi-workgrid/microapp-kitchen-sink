@@ -30,8 +30,8 @@ const Detail = () => {
         individual tabs in your browser.
       </p>
       <div className="example-block">
-        <label for="example">Example Input:</label>
-        <input type="text" placeholder="Example input" name="example"></input>
+        <label htmlFor="example">Example Input:</label>
+        <input type="text" placeholder="Example input" name="example" />
       </div>
       <div className="action-block">
         <button className="secondary" onClick={hideDetail}>

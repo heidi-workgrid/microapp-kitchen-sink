@@ -6,7 +6,7 @@ import Detail from './pages/Detail'
 
 const App = () => {
   return (
-    <Router basename="/microapp-kitchen-sink">
+    <Router basename={window.location.pathname}>
       <Route path="/" exact component={Summary} />
       <Route path="/detail" component={Detail} />
     </Router>

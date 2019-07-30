@@ -16,7 +16,7 @@ const Summary = () => {
   const showDetail = () => {
     // We have to use the hash router to show detail due to Github pages limitations
     microapp.current.showDetail({
-      url: `${window.location.origin}/microapp-kitchen-sink/#/detail`,
+      url: `${window.location.origin}${window.location.pathname}#/detail`,
       title: 'Microapp Title'
     })
   }
