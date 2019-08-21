@@ -36,7 +36,6 @@ code {
 }
 
 button {
-  flex: 1;
   overflow: hidden;
   white-space: nowrap;
   padding: 11px;
