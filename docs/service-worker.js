@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/microapp-kitchen-sink/precache-manifest.fa853a2bad3f662d0a612eea999438f2.js"
+  "/microapp-kitchen-sink/precache-manifest.2bb8f73fa44e0d5d84379a3a000ce07f.js"
 );
 
 self.addEventListener('message', (event) => {
