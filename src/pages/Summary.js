@@ -12,8 +12,13 @@ const Summary = () => {
   )
 
   useEffect(() => {
+    console.log('Initializing app')
     microapp.current.initialize()
   }, [])
+
+  useEffect(() => {
+    console.log('Token has changed ', token ? token.substr(token.length - 10, 10) : 'No Token')
+  }, [token])
 
   const showDetail = () => {
     // We have to use the hash router to show detail due to Github pages limitations
@@ -39,7 +44,7 @@ const Summary = () => {
     <div>
       <h1>Workgrid Microapp</h1>
       <p>This is the summary microapp, here are the actions you can perform in summary:</p>
-      <p>{token ? token.substr(token.length - 10, 10) : 'No Token'}</p>
+      <p>{token ? 'Token: ' + token.substr(token.length - 10, 10) : 'No Token'}</p>
       <div className="action-block vertical">
         <button className="secondary" onClick={changeTitle}>
           Change Title
