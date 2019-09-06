@@ -17,7 +17,7 @@ const Summary = () => {
   }, [])
 
   useEffect(() => {
-    console.log('Token has changed ', token ? token.substr(token.length - 10, 10) : 'No Token')
+    console.log(`Token has changed ${token ? token.substr(token.length - 10, 10) : 'No Token'}`)
   }, [token])
 
   const showDetail = () => {
