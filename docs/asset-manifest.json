@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/microapp-kitchen-sink/static/css/main.1bbab58a.chunk.css",
-    "main.js": "/microapp-kitchen-sink/static/js/main.a8cd524a.chunk.js",
-    "main.js.map": "/microapp-kitchen-sink/static/js/main.a8cd524a.chunk.js.map",
+    "main.js": "/microapp-kitchen-sink/static/js/main.2796a3b2.chunk.js",
+    "main.js.map": "/microapp-kitchen-sink/static/js/main.2796a3b2.chunk.js.map",
     "runtime~main.js": "/microapp-kitchen-sink/static/js/runtime~main.dd301b9a.js",
     "runtime~main.js.map": "/microapp-kitchen-sink/static/js/runtime~main.dd301b9a.js.map",
     "static/js/2.5d0966a5.chunk.js": "/microapp-kitchen-sink/static/js/2.5d0966a5.chunk.js",
     "static/js/2.5d0966a5.chunk.js.map": "/microapp-kitchen-sink/static/js/2.5d0966a5.chunk.js.map",
     "index.html": "/microapp-kitchen-sink/index.html",
-    "precache-manifest.12d16b72d52a4c92b99e1750302b6bdc.js": "/microapp-kitchen-sink/precache-manifest.12d16b72d52a4c92b99e1750302b6bdc.js",
+    "precache-manifest.cfc708600afda86d9f7ca33ab999856d.js": "/microapp-kitchen-sink/precache-manifest.cfc708600afda86d9f7ca33ab999856d.js",
     "service-worker.js": "/microapp-kitchen-sink/service-worker.js",
     "static/css/main.1bbab58a.chunk.css.map": "/microapp-kitchen-sink/static/css/main.1bbab58a.chunk.css.map"
   }

@@ -31,6 +31,7 @@ const Summary = () => {
 
   const requestToken = async () => {
     console.log('Requesting Token')
+    setToken('')
     setToken(await microapp.current.getToken())
   }
 
