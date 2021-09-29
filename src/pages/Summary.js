@@ -35,21 +35,12 @@ const Summary = () => {
     setToken(await microapp.current.getToken())
   }
 
-  const changeTitle = () => {
-    console.log('Changing Title')
-    const randomTitles = ['Altered Title', 'Awesome Title', 'Another Title']
-    microapp.current.updateTitle(randomTitles[Math.floor(Math.random() * randomTitles.length)])
-  }
-
   return (
     <div>
       <h1>Workgrid Microapp</h1>
       <p>This is the summary microapp, here are the actions you can perform in summary:</p>
       <p>{token ? 'Token: ' + token.substr(token.length - 10, 10) : 'No Token'}</p>
       <div className="action-block vertical">
-        <button className="secondary" onClick={changeTitle}>
-          Change Title
-        </button>
         <button className="secondary" onClick={requestToken}>
           Request Token
         </button>

@@ -18,10 +18,6 @@ const Detail = () => {
     microapp.current.hideDetail()
   }
 
-  const requestToken = async () => {
-    await microapp.current.getToken()
-  }
-
   return (
     <div className="container">
       <h1>Workgrid Microapp</h1>
@@ -36,9 +32,6 @@ const Detail = () => {
       <div className="action-block">
         <button className="secondary" onClick={hideDetail}>
           Hide Detail
-        </button>
-        <button className="primary" onClick={requestToken}>
-          Request Token
         </button>
       </div>
     </div>
